@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, button, input {
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: #0053e2;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 42px 32px;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.logo {
+  width: 50px;
+  padding: 6px 6px;
+  border-radius: 999px;
+}
+
+.logo:hover {
+  background-color: #001e60;
+}
+
+#pickup {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: white;
+  background-color: #002e99;
+  padding: 6px 8px;
+  border-radius: 999px;
+  border: none;
+}
+
+#pickup-icon {
+  width: 40px;
+  border-radius: 999px;
+}
+
+#pickup:hover {
+  background-color: #001e60;
+}
+
+.nav-actions-icons {
+  width: 20px;
+}
+
+.navbar .search-bar button {
+  background-color: #002e99;
+  padding: 16px 16px;
+}
+
+.search-bar {
+  display: flex;
+  width: 40%;
+  gap: 8px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 14px 12px;
+  border-radius: 999px;
+  border: none;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  background-color: #0053e2;
+  padding: 8px 20px;
+  border-radius: 999px;
+  border: none;
+}
+
+.nav-actions:hover {
+  background-color: #001e60;
+}
+
+.nav-actions-text {
+ text-align: left;
+}
+
+#shop-cart {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-nav {
+  width: 100%;
+  height: 24px;
+  background-color: #e9f1fe;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 24px 32px;
+
+}
+
+.category-nav button {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background-color: white;
+  color: #001e60;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: none;
+}
+
+.category-nav button:hover {
+  border: 1px solid #001e60;
+}
+
+.hero {
+  gap: 24px;
+  position: relative;
+  margin: 24px 40px;
+}
+
+.hero img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.hero-text {
+  position: absolute;
+  top: 32px;
+  left: 40px;
+  font-size: 20px;
+  width: 30%;
+  color: #001e60;
+}
+
+.hero-text h1 {
+  margin-bottom: 12px;
+}
+
+.hero-text button {
+  background-color: white;
+  color: #001e60;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid #001e60;
+}
+
+.hero-text button:hover {
+  border: 2px solid #001e60;
+}
+
+.products {
+  margin: 40px 40px;
+}
+
+.products-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.products-header h2 {
+  margin-bottom: 8px;
+}
+
+.products-header a {
+  color: #001e60;
+}
+
+.product-list {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 0px solid black;
+}
+
+.product-card img {
+  width: 215px;
+}
+
+.product-card button {
+  background-color: white;
+  color: #001e60;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid #001e60;
+  width: 72px;
+}
+
+.product-card button:hover {
+  border: 2px solid #001e60;
+}
+
+.product-card h3 {
+  color: #2a8703;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.price p {
+  color: gray;
+}
+
+.deal-pill {
+  background-color: #041e42;
+  color: white;
+  padding: 4px 6px;
+  border-radius: 4px;
+  width: 48px;
+}
+
+.banners {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: space-between;
+  margin: 24px 40px;
+}
+
+.banners div {
+  width: 440px;
+  padding: 24px 24px;
+  border-radius: 8px;
+  background-color: lightblue;
+  height: 400px;
+}
+
+.banners div h1 {
+  color: #001e60;
+  margin-bottom: 12px;
+}
+
+.banners button {
+  background-color: white;
+  color: #001e60;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid #001e60;
+}
+
+.banners button:hover {
+  border: 2px solid #001e60;
+}
+
+.banners img {
+  width: 380px;
+}
+
+#fashion {
+  background-color: #e8e8e8;
+}
+
+#pools {
+  background-color: #97d3f5;
+}
+
+#college {
+  background-color: #a3daf8;
+}
+
+
+footer p {
+  text-align: center;
+  margin: 60px;
+}
